@@ -1,0 +1,8 @@
+    The system should consume CSV files which are dropped into a shared folder which are of the form item,attribute_name,attribute_value. The CSV files will be dropped into the shared folder at any point in time.
+    The system should be able to notify the attribute changes for items to different subscribers based on different configurable conditions
+    The notifications can be sent on any asynchronous messaging system
+    The system should also be able to support queries to get all the attributes for a given item at any time
+    The system should be scalable to
+        accept large number of/large sized CSV files
+        support large number of subscriber configurations
+        support high throughput and low latency on the get query
